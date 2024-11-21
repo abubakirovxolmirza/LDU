@@ -21,8 +21,8 @@ import { mainLogo } from "../img";
 
 function NavBar() {
   const navigate = useNavigate();
-  const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
+  const [expand, updateExpanded] = useState(true);
+  const [navColour, updateNavbar] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
   const servicesData = [
     {
@@ -56,13 +56,13 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={`${navColour ? "sticky" : "navbar"}`}
+      className={`${navColour ? "sticky" : ""}`}
       style={{ height: "80px"}}
     >
       <Container>
-        {/* <Navbar.Brand href="/" className="d-flex">
-          <img src={mainLogo} className="main-logo" style={{ width: "80px", height: "80px"}}  alt="brand" />
-        </Navbar.Brand> */}
+        <Navbar.Brand href="/" className="d-flex">
+          <img src={mainLogo} className="main-logo" style={{ width: "120px", height: "80px"}}  alt="brand" />
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

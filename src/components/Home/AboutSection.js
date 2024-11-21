@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { home2, home3, home4 } from "../../img";
+import { home2, home3, home4, aboutsection } from "../../img";
 
 function AboutSection() {
   return (
@@ -10,7 +10,7 @@ function AboutSection() {
       <Container>
         <Row>
           <Col md={4} xs={{ order: 1 }} className="myAvtar ">
-            <img src={home3} className="img-fluid" alt="avatar" />
+            <img src={aboutsection} className="img-fluid" alt="avatar" />
           </Col>
           <Col md={8} xs={{ order: 2 }} className="home-about-description">
             <h1 className="clamp1" style={{ fontWeight: "bold" }}>

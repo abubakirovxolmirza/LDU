@@ -1,13 +1,15 @@
+// import homeyangi from "./home.jpg"
 
-import home1 from "./home1.jpg";
-import home3 from './home3.jpg'
-import home4 from './home4.jpg'
+import home1 from "./trucks.jpg";
+import aboutsection from "./carhauling.jpg";
+import home3 from './freight-semi-truck-road-carrier_800x.jpg'
+import home4 from './FLATBED AND STEPDECK.jpg'
 import logo1 from "./logo1.svg";
 import logo2 from "./logo2.svg";
 import logo3 from "./logo3.svg";
 import logo4 from "./logo4.svg";
-import mainLogo from "./logox1.png";
-import home2 from "./home2.png";
+import mainLogo from "./DALL·E 2024-11-21 12.19.08 - A modern and bold logo design featuring the text 'LDU BOLD EAGLE TRANSPORTATION INC'. The logo incorporates an eagle in flight, stylized in a sleek, m.png";
+import home2 from "./GROUND SHIPPING.jpg";
 import consultation from "./CONSULTATION.svg";
 import deliberation from "./DELIBERATION.svg";
 import evalution from "./EVALUATION.svg";
@@ -37,6 +39,7 @@ import coyote from './coyote.png'
 
 
 export {
+  aboutsection,
   home3,
   home4,
   hunt,

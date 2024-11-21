@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../Assets/26129984_lel.jpg";
+import { home3 } from "../../img";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -105,11 +107,11 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <p className="clamp2">WELCOME TO</p>
-            <h1 className="purple clamp" style={{ paddingBottom: "20px" }}>
+            <p className="clamp2" style={{ color: "white"}}>WELCOME TO</p>
+            <h1 className="clamp" style={{ paddingBottom: "20px", color: "white"}}>
             LDU BOLD EAGLE TRANSPORTATION INC
             </h1>
-            <p className="clamp4">
+            <p className="clamp4" style={{ color: "white"}}>
             Every time that we work with you, we deliver 5 years of freight transportation experience to your business; we simply put it to work for you. We provide tailored solutions for each client and solve any logistics task.
 
 Our main goal is to always perform flexible, fast, and cost-efficient delivery. That’s why we’ve gathered an experienced team that can handle any task. We only employ professionals who are put through a rigorous pre-screening process that includes a comprehensive background check, all the previous along with qualified dispatch who will deliver your freight anywhere in the United States of America.
@@ -124,7 +126,7 @@ The same as you, we believe that time is money and we value your cargo, that is 
             style={{ paddingTop: "150px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" style={{ borderRadius: "12px" }} />
+            <img src={home3} alt="about" className="img-fluid" style={{ borderRadius: "12px",  }} />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -137,11 +139,11 @@ The same as you, we believe that time is money and we value your cargo, that is 
               paddingBottom: "50px",
             }}
           >
-            <p className="clamp2">OUR TRUCKS AND TRAILERS</p>
-            <h1 className="purple clamp" style={{ paddingBottom: "20px" }}>
+            <p className="clamp2" style={{ color: "white", textAligin: "center", width: "full"}}>OUR TRUCKS AND TRAILERS</p>
+            <h1 className="clamp" style={{ paddingBottom: "20px" , color: "white"}}>
               Our Journey
             </h1>
-            <p className="clamp4">
+            <p className="clamp4" style={{ color: "white"}}>
               NNT Express embodies a tale of innovation and adaptability, rooted
               in a commitment to excellence and driven by a passion for
               transformation. Established in 2020 within the logistics sector,

@@ -9,11 +9,11 @@ function Logistic() {
       {/* <Particle /> */}
       <Container>
         <h1 className="project-heading">
-          <strong className="purple">Logistics Services </strong>
+          <strong className="" style={{ color: "white"}}>Logistics Services </strong>
         </h1>
         <Row>
           <Col
-            md={7}
+            md={12}
             style={{
               textAlign: "start",
               justifyContent: "start",
@@ -21,14 +21,14 @@ function Logistic() {
               paddingBottom: "50px",
             }}
           >
-            <p className="clamp2">SERVICES Transport Solutions</p>
-            <p className="clamp4">
+            <p className="clamp2" style={{ color: "white"}}>SERVICES Transport Solutions</p>
+            <p className="clamp4" style={{ color: "white"}}>
               NNT Express INC stands out in the field Transport Solutions. We
               offer a wide range of customized solutions tailored to the
               specific needs of each shipment. That's where NNT Express steps
               in, your trusted partner for cold chain management.
             </p>
-            <p className="clamp4">
+            <p className="clamp4" style={{ color: "white"}}>
               <strong>Our Services</strong>
               <ul>
                 <li>
@@ -97,22 +97,6 @@ function Logistic() {
                 </li> */}
               </ul>
             </p>
-          </Col>
-          <Col
-            md={5}
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-            className="about-img"
-          >
-            <img
-              style={{ borderRadius: "12px" }}
-              src={logisticimg}
-              alt="about"
-              className="img-fluid"
-            />
           </Col>
           <Col
             md={12}
