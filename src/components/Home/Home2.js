@@ -76,23 +76,14 @@ function Home2() {
         <Row>
           <h1 className="clamp1">
             WELCOME TO{" "}
-            <span className="clamp1"> LDU BOLD EAGLE TRANSPORTATION INC</span>
+            <span className="clamp1"> BLACKHAWKS EXPRESS INC</span>
           </h1>
           <Col md={6} className="home-about-description">
             <p className="clamp4cc home-about-body px-4">
-              A leading carrier company specializing in transportation
-              solutions. We're dedicated to simplifying and optimizing workflows
-              through our knowledge and solid experience. With a focus on
-              practicality and efficiency, we help businesses across various
-              industries streamline their operations, saving time and resources
+            A leading carrier company specializing in transportation solutions. We're dedicated to simplifying and optimizing workflows through our knowledge and solid experience. With a focus on practicality and efficiency, we help businesses across various industries streamline their operations, saving time and resources
               <br />
               <br />
-              At LDU BOLD EAGLE TRANSPORTATION INC, our goal is simple: to
-              empower organizations with the tools they need to thrive in
-              today's dynamic hauling business. Through our proven expertise and
-              commitment to innovation, we've successfully modernized countless
-              businesses, delivering tangible results and measurable
-              improvements.
+              At BLACKHAWKS EXPRESS INC, our goal is simple: to empower organizations with the tools they need to thrive in today's dynamic hauling business. Through our proven expertise and commitment to innovation, we've successfully modernized countless businesses, delivering tangible results and measurable improvements.
             </p>
           </Col>
           <Col md={6} className="myAvtar ">

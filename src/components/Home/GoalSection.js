@@ -53,10 +53,7 @@ const GoalSection = () => {
             <div>
               <ul className="text-start">
                 <li className="animate__animated animate__fadeInRight delay-2s">
-                  The equipment options for refrigerated freight are diverse,
-                  ranging from standard refrigerated trucks to advanced trailers
-                  with multi-temperature zones and real-time temperature
-                  monitoring systems.  
+                The equipment options for refrigerated freight are diverse, ranging from standard refrigerated trucks to advanced trailers with multi-temperature zones and real-time temperature monitoring systems. 
                 </li>
               </ul>
             </div>

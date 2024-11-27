@@ -13,11 +13,6 @@ import { home3 } from "../../img";
 function Home() {
   return (
     <section className="home-section">
-      {/* Video Background */}
-      {/* <video autoPlay muted loop playsInline className="background-video">
-        <source src={Video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> */}
 
       <Container fluid id="home" className="text-white">
         {/* <Particle /> */}
@@ -27,7 +22,7 @@ function Home() {
               <div>
                 <p className="clamp2 text-white">A COMPANY PROFILE OF</p>
                 <h1 className="clamp shimmer text-white">
-                  LDU BOLD EAGLE TRANSPORTATION INC
+                BLACKHAWKS EXPRESS INC
                 </h1>
               </div>
               <h1 className="shimmer1 heading text-start clamp3 text-top text-white">
@@ -36,7 +31,7 @@ function Home() {
               </h1>
             </Col>
             <Col md={5} className="d-flex align-items-center pb-5">
-              <img src={home3} className="img-fluid" alt="avatar" />
+              <img src={home3} className="img-fluid" alt="avatar" style={{ marginTop: '60px' }}/>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}></Col>

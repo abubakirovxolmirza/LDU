@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "A COMPANY PROFILE OF",
-          "LDU BOLD EAGLE TRANSPORTATION INC",
+          "BLACKHAWKS EXPRESS INC",
         ],
         autoStart: true,
         loop: true,

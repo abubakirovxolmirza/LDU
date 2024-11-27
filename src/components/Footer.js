@@ -69,7 +69,7 @@ function Footer() {
                     </a>
                   </Col>
                   <Col>
-                    <h6 className="p-0 m-0 clamp4cc text-start">safety@ldubet.com</h6>
+                    <h6 className="p-0 m-0 clamp4cc text-start">mc1437860@gmail.com</h6>
                   </Col>
                 </Row>
                 <Row className="social-icons d-flex flex-row justify-content-center align-items-center">
@@ -85,7 +85,7 @@ function Footer() {
                   </Col>
                   <Col>
                     <h6 className="p-0 m-0 clamp4cc text-start font-family-san-serif">
-                    708-55-44-1-55
+                    (916) 379-79-71
                     </h6>
                   </Col>
                 </Row>
@@ -148,7 +148,7 @@ function Footer() {
       <div className="line-style"></div>
       <Row className="mt-4">
         <Col md={6} className="footer-copywright">
-          <h3>Copyright © {year} NNT Express</h3>
+          <h3>Copyright © {year} BLACKHAWKS EXPRESS INC</h3>
         </Col>
         <Col md={6} className="footer-body">
           <ul className="footer-icons d-flex justify-content-center">

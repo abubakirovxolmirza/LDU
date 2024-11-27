@@ -30,7 +30,7 @@ body {
   
   .custom-label {
     text-align: left !important;
-    color: #1F2833;
+    color: #e6e6e6;
     display: block; /* Ensures the label takes up the full width */
   }
   .button-from{

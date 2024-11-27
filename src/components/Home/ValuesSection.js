@@ -18,9 +18,7 @@ function ValuesSection() {
           >
             <h1 className="clamp2cc">Climate Controlled Freight</h1>
             <p className="home-about-body clamp4cc">
-              In the fast-paced world of logistics, precision and reliability
-              are paramount, especially when it comes to handling
-              temperature-sensitive cargo.
+            In the fast-paced world of logistics, precision and reliability are paramount, especially when it comes to handling temperature-sensitive cargo.
             </p>
           </Col>
           <Col
@@ -31,10 +29,7 @@ function ValuesSection() {
             <h1 className="clamp2cc">Specialized Freight & Transportation</h1>
             <p className="home-about-body clamp4cc">
               {" "}
-              Our experienced logistics firm is dedicated to ensuring the
-              precise handling of your perishable shipments, maintaining the
-              necessary temperature-monitored shipping strategies throughout the
-              process.
+              Our experienced logistics firm is dedicated to ensuring the precise handling of your perishable shipments, maintaining the necessary temperature-monitored shipping strategies throughout the process.
             </p>
           </Col>
         </Row>

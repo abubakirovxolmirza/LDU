@@ -9,87 +9,35 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { consultation, deliberation, evalution, finish, solution } from "../../img";
+import { consultation, deliberation, evalution, finish, solution, aboutbla } from "../../img";
 
 
 const dataRoadmap = [
   {
     id: 1,
     icon:consultation,
-    title: "OUR TRUCKS AND TRAILERS",
-    desc: `- We initiate the process by
-    engaging with our clients to
-    deeply understand their
-    challenges, goals, and
-    requirements.
-    <br/>
-    <br/>
-    - Through in-depth discussions,
-    we gather insights into their
-    existing processes and areas for
-    improvement`,
+    title: "Why BLACKHAWKS EXPRESS INC?",
+    desc: `- BLACKHAWKS EXPRESS INC is considered as one of the active participants of the transportation industry in the US. We provide effective logistic services to the hundreds of businesses operating in the country, helping them move freight from one place to the other.`,
   },
   {
     id: 2,
     icon:deliberation,
-    title: "DELIBERATION",
-    desc: `- Internally, we collaborate to
-    analyze the information
-    gathered during the consultation
-    phase.
-    <br/>
-    <br/>
-    - Our team brainstorms ideas
-    and explores potential solutions
-    that align with the client's
-    objectives.`,
+    title: "Responsibility",
+    desc: `- In fact, a recent survey conducted by our partners, an audit company, emphasized that more than 100 brokers of the US heavily rely and depend on trucking provided by our company for the transportation of goods.`,
   },
   {
     id: 3,
     icon:solution,
-    title: "SOLUTION",
-    desc: `- Leveraging our expertise, we
-    design bespoke IT automation
-    solutions tailored to address the
-    specific needs identified during
-    consultation.
-    <br/>
-    <br/>
-    - Our focus is on developing
-    innovative strategies that
-    streamline workflows and
-    enhance operational efficiency`,
+    title: "Fidelity",
+    desc: `- The majority of the essential goods — food, medicine, everyday goods, and other essential items — are being transported via our company. Our heavy trucks carry thousands of pounds of these essential goods across the country every day.`,
   },
   {
     id: 4,
     icon:evalution,
-    title: "EVALUATION",
-    desc: `- We present the proposed
-    solutions to the client for review
-    and feedback.
-    <br/>
-    <br/>
-    - Facilitating open
-    communication, we iterate on
-    the proposed solutions based on
-    client input to ensure alignment`,
+    title: "Professional Team",
+    desc: `- Creating new relationships can be challenging, so we create a stress-free experience by assigning one of our highly-knowledgable teams to work with the specific needs of your company. This team understands you and your requirements, which allows you to focus on your business versus managing multiple shippers.`,
   },
-  {
-    id: 5,
-    icon:finish,
-    title: "FINALIZATION",
-    desc: `- Fine-tuning and finalizing the
-    chosen solution, we address all
-    technical and logistical aspects
-    to meet the client's
-    requirements.
-    <br/>
-    <br/>
-    - Our goal is to deliver a
-    comprehensive solution that not
-    only meets but exceeds our
-    client's expectations`,
-  },
+  
 ];
 
 function About() {
@@ -108,16 +56,15 @@ function About() {
             }}
           >
             <p className="clamp2" style={{ color: "white"}}>WELCOME TO</p>
-            <h1 className="clamp" style={{ paddingBottom: "20px", color: "white"}}>
-            LDU BOLD EAGLE TRANSPORTATION INC
+            <h1 className="clamp2" style={{ paddingBottom: "20px", color: "white"}}>
+            BLACKHAWKS EXPRESS INC
             </h1>
             <p className="clamp4" style={{ color: "white"}}>
-            Every time that we work with you, we deliver 5 years of freight transportation experience to your business; we simply put it to work for you. We provide tailored solutions for each client and solve any logistics task.
+            Every time that we work with you, we deliver many years of freight transportation experience to your business; we simply put it to work for you. We provide tailored solutions for each client and solve any logistics task.
 
-Our main goal is to always perform flexible, fast, and cost-efficient delivery. That’s why we’ve gathered an experienced team that can handle any task. We only employ professionals who are put through a rigorous pre-screening process that includes a comprehensive background check, all the previous along with qualified dispatch who will deliver your freight anywhere in the United States of America.
-              <br /> <br />
-              We have as our best core value, the responsibility to operate safely, we are always up for innovation and improvement, our eyes are  looking forward for better and smarter logistics solutions for any type of business.
-always
+Our main goal is to perform always flexible, fast, and cost-efficient delivery. That is why we have gathered an experienced team that can handle any task. We only employ professionals who are put through a rigorous pre-screening process that includes a comprehensive background check, all the previous along with qualified dispatch who will deliver your freight anywhere in the United States of America.<br /> <br />
+We have as our best core value, the responsibility to operate safely, we are always up for innovation and improvement, and our eyes are always looking forward for better and smarter logistics solutions for any type of business.
+
 The same as you, we believe that time is money and we value your cargo, that is why we narrow the timeframe of each delivery.
             </p>
           </Col>
@@ -126,7 +73,7 @@ The same as you, we believe that time is money and we value your cargo, that is 
             style={{ paddingTop: "150px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={home3} alt="about" className="img-fluid" style={{ borderRadius: "12px",  }} />
+            <img src={aboutbla} alt="about" className="img-fluid" style={{ borderRadius: "12px",  }} />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -139,34 +86,28 @@ The same as you, we believe that time is money and we value your cargo, that is 
               paddingBottom: "50px",
             }}
           >
-            <p className="clamp2" style={{ color: "white", textAligin: "center", width: "full"}}>OUR TRUCKS AND TRAILERS</p>
-            <h1 className="clamp" style={{ paddingBottom: "20px" , color: "white"}}>
-              Our Journey
+            <p className="clamp2" style={{ color: "white", textAligin: "center", width: "full"}}>Semi-Trailer Trucks</p>
+            <h1 className="clamp1" style={{ paddingBottom: "10px" , color: "white"}}>
+            Our Fleet
             </h1>
             <p className="clamp4" style={{ color: "white"}}>
-              NNT Express embodies a tale of innovation and adaptability, rooted
-              in a commitment to excellence and driven by a passion for
-              transformation. Established in 2020 within the logistics sector,
-              NNT Express swiftly rose to prominence as a trusted partner,
-              revolutionizing traditional workflows and setting new standards
-              for efficiency and reliability.
+            Also called 18-wheelers, big rigs, or tractor-trailers, they are popular fleet trucks that come in many different shapes and sizes. A semi-trailer truck is the combination of a tractor unit and one or more semi-trailers to carry freight. They often carry freight like cars, building materials, machinery, and more across the country.
               <br />
               <br />
-              In 2023, recognizing the seismic shift towards digitalization, NNT
-              Express embraced change and expanded its horizons into the realm
-              of Information Technology (IT). This strategic pivot marked a
-              defining moment in the company's evolution, as it embarked on a
-              journey to harness the power of technology to shape the future of
-              logistics.
+              We have ​53’ Dry Van, Box Delivery, Car Carrier, Single Drop, Double Drop, Removable Gooseneck, Straight Flatbed, Refrigerated, Tanker trailer, Straight Tanker.
               <br />
               <br />
-              Under the visionary leadership of its founders, NNT Express
-              swiftly became a trailblazer in the IT landscape, pioneering the
-              development of essential platforms such as Electronic Logging
-              Device (ELD) and Transportation Management System (TMS). These
-              platforms not only streamlined logistics processes but also laid
-              the foundation for a new era of innovation within the industry
+              Our Trucks Brands: General Freight, Motor Vehicles, Tow Away, Machinery or Large Objects, Chemicals.
             </p>
+            <br />
+            <p className="clamp2" style={{ color: "white", textAligin: "center", width: "full"}}>Safety and Security</p>
+            <p className="clamp4" style={{ color: "white"}}>
+            Safety has always come first at BLACKHAWKS EXPRESS INC because it saves lives, reduces potential freight damage and gives our customers the high-quality service they have come to expect with us.
+            <br />
+              <br />
+              Our philosophy of safety starts with a commitment to standards of behaviors across our entire network. We begin with strict owner-operator qualification requirements. We also provide safety orientation and ongoing training opportunities for both agents and owner-operators leased to BLACKHAWKS EXPRESS INC However, our safety-first culture extends far beyond that.              <br />
+              <br />
+              BLACKHAWKS EXPRESS INC Safety Officers are designated at every independent agency, and they support us in providing education, training and awareness programs.            </p>
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
